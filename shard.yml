@@ -1,0 +1,23 @@
+name: ibswm
+version: 0.1.0
+
+dependencies:
+  x11:
+    github: cmizzi/x11-cr
+    branch: master
+
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.4.0
+
+authors:
+  - Cyril Mizzi <me@p1ngouin.com>
+
+targets:
+  ibswm:
+    main: src/ibswm.cr
+  ibsc:
+    main: src/ibsc.cr
+
+crystal: 1.1.1
+license: MIT

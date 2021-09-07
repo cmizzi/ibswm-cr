@@ -1,0 +1,10 @@
+version: 2.0
+shards:
+  commander:
+    git: https://github.com/mrrooijen/commander.git
+    version: 0.4.0
+
+  x11:
+    git: https://github.com/cmizzi/x11-cr.git
+    version: 1.0.0+git.commit.e849f9e410a0c26e65c4d0756875afaec940cf57
+
